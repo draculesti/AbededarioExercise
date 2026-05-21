@@ -1,0 +1,73 @@
+*{
+  background-color: #1e1e1e;
+}
+
+body {
+  margin: 0;
+  padding: 40px;
+  font-family: Arial, sans-serif;
+  background: #121212;
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 30px;
+  font-size: 40px;
+}
+
+.alphabet-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #1e1e1e;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.letter {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #00bcd4;
+}
+
+img {
+  width: 30%;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+h3{
+  color: green;
+}
+
+h3:hover {
+color: #ffb703;
+cursor: pointer;
+}
+
+h3:active {
+color: #d00000;
+}
+
+.specialClass{
+  color: blue;
+}
+
+.redClass{
+  color: red;
+}
+
+input:checked {
+  border: 2px solid blue;
+}
+
