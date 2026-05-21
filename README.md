@@ -1,4 +1,4 @@
-#[Abecerario ejercicio css, HTML]
+#Abecerario ejercicio css, HTML
 
 ## 👥 Equipo de Trabajo
 
